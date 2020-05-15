@@ -1,0 +1,39 @@
+
+
+-PANADERIA PASTIPAN-
+
+Es una página web realizada con html5, php, css, y el framework de boostrap para algunos temas de estilo. 
+Por otra parte algunos iconos que aparecen fueron extraidos de la página "fontawesome.com", el resto de imagenes fueron extraidas de internet.
+
+Dicha página es conectada a una base de datos realizada en Mysql, más concretamente en el paquete WAMP (María DB).
+
+PASTIPAN es una panaderia y el trabajo que cumple la página es llevar control sobre los productos de la tienda, en ella se pueden ingresar nuevos productos
+estos con su precio, fecha de vencimiento (en cuanto dicha fecha, sobrepase la fecha actual, la página anunciará que el producto está vencido y debe ser eliminado) y el 
+proveedor por el cuál fue vendido(clasificandolo en los proveedores que ya estén añadidos, si no es ninguno de los añadidos anteriormente se agregará un nuevo proveedor), se 
+puede editar los productos ingresados en caso de error al ingreso, se pueden eliminar productos los cuales simplemente estén vencidos o hayan sido un error en el  ingreso; 
+También la página cuenta con la posibilidad de vender productos, el producto vendido pasará a hacer parte de la tabla de vendidos, y se eliminará de el stock. Cada producto 
+será vendido por un precio superior al precio en el cual fue adquirido con el distribuidor, teniendo así un porcentaje de ganancia; La página cuenta con la posibilidad de 
+visualizar los productos que han sido vendidos, viendo así una lista de dichos productos que ya no se encuentran en el stock y fueron vendidos, con su respectiva fecha de venta; 
+Otra opción con la que cuenta es poder visualizar un balance de la cuenta de la panadería viendo así el dinero que se ha invertido para la compra del stock, y por otro lado viendo 
+el precio en el cual fueron vendidos, creando la diferencia y viendo el resultado total de las ganancias de la tienda.
+
+Cada producto añadido a el stock de la tienda se dividirá dependiendo de su tipo (gaseosas, Lacteos, Snacks, Harinas, Licor, Granos Disoluciones, entre otros tipos) dando así mayor
+orden a la hora de mostrar el stock, y dando la posibilidad de ver el stock de cada tipo de producto por a parte.
+Habrá una opción en la cual se podrá ver el nombre de el proveedor, dirección,número de telefono, correo electrónico...etc.
+
+USUARIOS -->El programa cuenta con dos tipos de login, uno es el del ADMINISTRADOR, el cuál podrá usar todas las opciones anteriores (Añadir al stock, editar y eliminar productos que estén 
+vencidos o hayan sido mal ingresados, vender productos, ver los productos, el balance de la cuenta total de ingresos, entre otros) El otro tipo de cuenta es la de el EMPLEADO, el cuál
+no tendrá, claramente, las mismas opciones que tiene el administrador, este solo se podrá limitar a guardar productos en el stock, visualizar el stock, y vender productos, en ningún
+caso este tendrá la posibilidad de editar o eliminar productos de la tienda, ni tampoco podrá visualizar el balance que tiene en ingresos la panadería, ni tampoco ver el total de 
+productos vendidos, tal como puede el administrador. Los usuarios para las distintas cuentas son los siguientes (DEBE RESPETAR LAS MAYÚSCULAS):
+	
+ADMINISTRADOR:
+	username: Administrador
+	password: admin
+
+EMPLEADO:
+	username: Empleado
+	password: empleado
+
+
+DERECHOS-->Niego los derechos para el uso de este mismo por otros estudiantes.
